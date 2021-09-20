@@ -10,7 +10,6 @@ function App(props) {
   const [message, setMessage] = useState('');
   const [visible, setVisible] = useState(false);
   const [color, setColor] = useState('red');
-  const [seconds, setSeconds] = useState(4);
   const [test, setTest] = useState(false);
 
   const users = [
